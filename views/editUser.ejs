@@ -27,7 +27,7 @@
                     <input type="password" name="password" required class="form-control" />
                 </div>
                 <div class="mb-3 form-check">
-                    <input type="checkbox" name="isAdmin" class="form-check-input" <%=user.isAdmin ? 'checked' : '' %>
+                    <input type="checkbox" name="isAdmin" <%= user.isAdmin ? 'checked' : '' %> />
                     <label for="isAdmin" class="form-check-label">Is Admin</label>
                 </div>
                 <button class="btn btn-primary" type="submit">Save Changes</button>
