@@ -57,6 +57,10 @@ This Node.js application defines several routes for different functionalities. B
   - Description: Currency API
   - Use: `app.use("/", currencyApi)` (2nd API)
 
+- `/mockapi`: 
+  - Description: MockAPI
+  - Use: `app.use("/", mockApi)` (3nd API)
+  
 - `/history`: 
   - Description: History
   - Use: `app.use("/", history)`
