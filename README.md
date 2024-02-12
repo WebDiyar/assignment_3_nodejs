@@ -1,8 +1,8 @@
 # Weather Forecast Application, Currency and MockAPi
 
 ## Admin details
-1) Username: ###Diyar
-2) Password: ###Diyar_11
+1) Username: `Diyar`
+2) Password: `Diyar_11`
    
 ## Installation
 
@@ -34,16 +34,12 @@ This Node.js application defines several routes for different functionalities. B
 ## Routes
 
 - `/`: 
-  - Description: Root route
-  - Use: Main entry point
+  - Description: User login
+  - Use: `app.use("/", loginRouter)`
   
 - `/register`: 
   - Description: User registration
   - Use: `app.use("/", registerRouter)`
-
-- `/login`: 
-  - Description: User login
-  - Use: `app.use("/", loginRouter)`
 
 - `/admin`: 
   - Description: Admin section
